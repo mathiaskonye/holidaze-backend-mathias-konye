@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hotels",
+  "info": {
+    "name": "hotels",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "destination": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "stars": {
+      "type": "integer"
+    },
+    "image": {
+      "type": "string"
+    },
+    "wifi": {
+      "type": "boolean"
+    },
+    "pool": {
+      "type": "boolean"
+    }
+  }
+}

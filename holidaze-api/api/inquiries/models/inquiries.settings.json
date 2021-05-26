@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inquiries",
+  "info": {
+    "name": "inquiries",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hotel_name": {
+      "type": "string"
+    },
+    "fullname": {
+      "type": "string"
+    },
+    "guests": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "email"
+    },
+    "date_to": {
+      "type": "date"
+    },
+    "date_from": {
+      "type": "date"
+    }
+  }
+}
